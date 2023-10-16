@@ -68,7 +68,6 @@ public class AddressBookController {
         return book1;
     }
 
-
     @RequestMapping("/")
     public String home(Model model) {
         return "home";
