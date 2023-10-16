@@ -67,4 +67,10 @@ public class AddressBookController {
         model.addAttribute("book", book1);
         return book1;
     }
+
+
+    @RequestMapping("/")
+    public String home(Model model) {
+        return "home";
+    }
 }
